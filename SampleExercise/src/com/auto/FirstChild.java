@@ -1,9 +1,14 @@
 package com.auto;
 
-public class FirstChild extends First{
+public class FirstChild {
+	
+	public void display() {
+		System.out.println("Display !!!!!!!!!");
+	}
+	
 	
 	public static void main(String [] args) {
-		First f = new FirstChild();
+		FirstChild f = new FirstChild();
 		f.display();
 	}
 
